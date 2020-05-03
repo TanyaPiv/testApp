@@ -1,0 +1,23 @@
+.wrap {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+        cursor: pointer;
+        margin: 7px;
+    }
+    
+}
