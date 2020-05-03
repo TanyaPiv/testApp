@@ -24,6 +24,9 @@ export default class ModalWindow extends Component {
     onSubmit = (event) => {
         event.preventDefault();
         const { firstName, comment } = this.state.form;
+        if (comment.length === 0) {
+            return
+        }
         const data = { 
             name: firstName,
             comment: comment
